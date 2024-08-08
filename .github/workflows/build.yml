@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
       KEY_REPO: ${{ secrets.KEY_REPO }}
       KEY_TOKEN: ${{ secrets.KEY_TOKEN }}
